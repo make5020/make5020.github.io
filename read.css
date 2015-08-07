@@ -1,0 +1,92 @@
+body{color: #505050;line-height: 1.75em;background: #ebebeb;position: relative;font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;  font-size: 14px;}
+.toper{padding: 50px 0px;font-family: haiyi;background:url(http://static.ghostchina.com/image/6/d1/fcb3879e14429d75833a461572e64.jpg) /**#FF5E52**/;text-align: center;color:#fff;  font-size: 2em;}
+.header{width: 100%;height: 50px;line-height: 50px;background-color: #fdfdfd;border-bottom: 2px solid #e1e1e1;  border-top: 1px solid #ebebeb;}
+.header .container{width: 940px;}
+.header .container ul>li{float:left;padding: 0px 10px;}
+.header .container ul>li:hover{color:blue;}
+.header .container ul>li>ol{background:#FDFDFD;padding:0px 5px;  border-left: 1px solid #eee;border-right: 1px solid #eee;text-align: center;display: none;}
+.header .container ul>li>ol:nth-last-child(1){border-bottom: 1px solid #eee;}
+.header .container ul>li>ol:hover{background:#EDC3C3;}
+
+.tag  .container{width: 940px;padding:10px;}
+.tag  .container span{font-size: 12px;color: #000;}
+
+.main{}
+.main .container{width: 940px;}
+.mainL{width:600px;margin-right: 16px;border-radius: 3px;}
+.mainL .img{height: 150px;line-height:150px;}
+.mainL .img>img{width: 209px;height: 150px}
+.mainR{width:280px;}
+.main .container .mainL .title{height: 35px;line-height: 35px;}
+.mainR .tag{text-align: center;}
+.mainR .tag a{border: 1px solid #ebebeb;  padding: 2px 7px;  color: #959595;line-height: 1.5em;display: inline-block;margin: 0 7px 7px 0;}
+.mainR .tag a:hover{background:black;color:#fff;}
+.mainL .conent p img{width: 502px;border: 0; font-size: 0px; margin-bottom:20px;}
+
+.footer{width: 100%;}
+.footer .container{width: 940px;}
+
+.pageer{}
+.pageer .container{width:600px;}
+.pageer .container a{width: 36px;height: 36px;line-height: 36px;  display: inline-block;}
+.pageer .container a:hover{background:#000;color:#fff;}
+.pageer .container .page-number{width:auto;}
+
+.home .tag{border-bottom: #eee 1px solid;}
+.home .tag:hover{background:url(http://www.25pp.com/staticfiles/images/ranking_current.jpg) no-repeat center bottom;border-bottom: 0px;padding-bottom: 10px;}
+.home .active{background:url(http://www.25pp.com/staticfiles/images/ranking_current.jpg) no-repeat center bottom;border-bottom: 0px !important;padding-bottom: 10px;}
+.mainR .profile img{  border-radius: 100px;}
+
+
+.edui-container .edui-toolbar,.edui-container{box-shadow: 0px 0px 0px #d3d6da !important;}
+form input[type='text'],form input[type='password']{padding: 7px;border: 1px solid #D4D4D4;}
+form .edui-dialog-video #eduiVideoUrl{width: 456px;}
+form .edui-dialog-video .edui-video-wrapper fieldset input.edui-video-txt{width: 46px;}
+form .edui-dialog-map .edui-map-city{width: 79px;}
+form .edui-container td{background: #fff !important;}
+form .edui-container p{margin:0px auto;}
+form input[type='submit']{ background-color: blue;color: #fff;padding: 8px 24px;border: 1px;box-sizing: initial;border-radius: 4px;font-family: inherit;}
+form input[type='submit']:hover{background-color: black;}
+form input[type='button']{ background-color: blue;color: #fff;padding: 8px 24px;border: 1px;box-sizing: initial;border-radius: 4px;font-family: inherit;}
+form input[type='button']:hover{background-color: black;}
+
+.wish{width: 100%;height: 100%;}
+.wish .tab{width: 100%;text-align: center;  padding: 30px 0px 70px 0px;background:rgb(108, 143, 255);font-size:35px;font-family: haiyi;color:#fff;}
+.wish .tab a{padding:10px;}
+.wish .menu{text-align: center;width: 940px;}
+.wish .menu div{float: left;  padding: 20px;font-family: haiyi;background-color: rgb(255, 102, 102);  margin-top: -34px;}
+.wish .menu div:hover{background-color:rgb(229, 0, 0)}
+.wish .menu .active{background-color:rgb(229, 0, 0)}
+.wish .menu div a{  color: white;  font-size: 22px;}
+.wish .list{text-align: center;width: 940px;margin-top:20px;}
+.wish .list .item{text-align: center;  background-color: white;float: left;  margin: 10px;  padding: 10px;  border: 1px solid rgb(108, 143, 255);height: 300px;
+  width: 271px;}
+.wish .list .item .name{width:100px;margin: -23px 0px 0px 0px;border: 1px solid #6C8FFF;background-color: rgb(108, 143, 255);color: white;  height: 30px;
+  line-height: 30px;}
+.wish .list .item .text{text-align: left;padding: 5px 0px;}
+.wish .list .item .time{text-align: left;color: #CDCCCC;}
+.wishBox{padding: 10px;position: fixed;height: 316px;width: 271px;bottom: 0px;background-color: white;border: 1px solid #6C8FFF;  right: 17px;}
+.wishBox .title{font-family: haiyi;border-bottom: 1px solid #eee;padding-bottom: 5px;}
+.wishBox .imgBox{text-align: center;}
+.wishBox .imgBox>img{width: 176px;border: solid 1px #eee;}
+a:hover{  color: royalblue;}
+sub{vertical-align: inherit;padding: 5px;  vertical-align: inherit;padding: 1px 5px;background-color: rgb(0, 32, 255);border-radius: 10px;color: white;}
+.conent img{width: 100%;}
+
+/**注册**/
+.title{}
+
+.loginBoxTools{border: 1px solid #eee;
+  position: absolute;
+  background: #FFFFFF;
+  right: 100px;
+  border-top: 0px;
+  width: 200px;
+  height: 36px;line-height: 2.5em;  color: forestgreen;}
+  
+.loginBox{  background-color: #fff;
+  width: 500px;
+  height: 260px;
+  margin-top: 50px;
+  text-align: center;
+  }

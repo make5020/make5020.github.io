@@ -33,7 +33,7 @@ ul{padding-left: 0px;list-style-type: none;}
 .nav>li:hover{background: #eee;}
 .list{width: 100%;text-align: center;}
 
-.list>li{list-style-type: none;padding: 10px;border-bottom: 1px solid #eee;}
+.list>li{list-style-type: none;padding: 10px;border-bottom: 1px solid #eee;  text-align: left;}
 .list>li:hover{background-color: #F4F4F4;border-bottom: 1px solid #eee;}
 
 

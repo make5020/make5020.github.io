@@ -1,12 +1,12 @@
 /**http://fontawesome.io/**/
 @font-face {
 	font-family:'FontAwesome';
-	src:url('../../common/font/fontawesome-webfont.eot');
-	src:url('../../common/font/fontawesome-webfont.eot') format('embedded-opentype'),
-		url('../../common/font/fontawesome-webfont.woff2') format('woff2'),
-		url('../../common/font/fontawesome-webfont.woff') format('woff'),
-		url('../../common/font/fontawesome-webfont.ttf') format('truetype'),
-		url('../../common/font/fontawesome-webfont.svg') format('svg');
+	src:url('../font/fontawesome-webfont.eot');
+	src:url('../font/fontawesome-webfont.eot') format('embedded-opentype'),
+		url('../font/fontawesome-webfont.woff2') format('woff2'),
+		url('../font/fontawesome-webfont.woff') format('woff'),
+		url('../font/fontawesome-webfont.ttf') format('truetype'),
+		url('../font/fontawesome-webfont.svg') format('svg');
 	font-weight:normal;
 	font-style:normal
 }

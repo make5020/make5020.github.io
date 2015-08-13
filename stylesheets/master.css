@@ -1,0 +1,9 @@
+.header{ background:#09F;}
+.header a{color:#FFF;}
+.header fa{color:#FFF;}
+.list>li:hover {
+  background-color: #FFFFFF;
+}
+.nav>li:hover {
+  background: #0088E2;
+}

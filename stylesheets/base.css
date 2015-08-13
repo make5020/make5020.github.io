@@ -1489,13 +1489,15 @@ hr{height:1px;border:none;border-top:1px solid #DFDFDF;}
 .bg3{background: #01BCFF;}
 .bg4{background: #f5f5f5;}
 .bgblack{background: #202020;}
-.bgblue{background:blue;}
+.bgblue{background-color:blue;}
+.bgcornflowerblue{background-color:cornflowerblue;}
 
 
 
 .cr0{color: #47B340;}
 .cr1{color:#DBDBDB}
 .cr2{color: #c7c9cf;}
+.cornflowerblue{color:cornflowerblue;}
 .
 .tc{text-align: center;}
 .of{overflow: auto; }

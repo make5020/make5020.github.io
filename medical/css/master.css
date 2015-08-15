@@ -4,6 +4,7 @@
 .header {
   background-color: #439AD1;
 }
+.header *{ color:#fff !important;}
 .ptb-10{ padding:10px 0px;}
 .ptb-15{ padding:15px 0px;}
 .ptb-20{ padding:20px 0px;}
@@ -14,4 +15,3 @@
 
 
 
-i.fa{color:#fff;}

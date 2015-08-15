@@ -6,7 +6,6 @@ input[type='text']{outline: none;padding: 10px;text-align: left;}
   width: 100%;
   background-color: white;
   display: -webkit-box;
-  border-bottom: 1px solid #E8E5E5;
 }
 
 .footer{border-top: 1px solid #E8E5E5;margin-top: 10px;}

@@ -1,3 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
+.ptb-10{ padding:10px 0px;}
+.ptb-15{ padding:15px 0px;}
+.ptb-20{ padding:20px 0px;}
 
+
+.bgblack{background-color: #272727;}
+
+ul.nav>li:hover{ background-color:#FFF;}
+
+
+
+i.fa{color:#fff;}

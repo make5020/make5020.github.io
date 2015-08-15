@@ -9,8 +9,14 @@
 .ptb-15{ padding:15px 0px;}
 .ptb-20{ padding:20px 0px;}
 
+samp{font-family: inherit;}
 
 .bgblack{background-color: #272727;}
+
+
+.fa {
+  color: rgb(67, 154, 209);
+}
 
 
 

@@ -26,11 +26,9 @@ input[type='text']{outline: none;padding: 10px;text-align: left;}
 
 ul{padding-left: 0px;list-style-type: none;}
 .nav>li{float: left;  padding: 1.0px 10px;}
-.nav>li:hover{background: #eee;}
 .list{width: 100%;text-align: center;}
 
 .list>li{list-style-type: none;padding: 10px;border-bottom: 1px solid #eee;  text-align: left;}
-.list>li:hover{background-color: #F4F4F4;border-bottom: 1px solid #eee;}
 
 
 .showroom{padding: 10px;}

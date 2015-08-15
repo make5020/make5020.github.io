@@ -11,7 +11,6 @@ input[type='text']{outline: none;padding: 10px;text-align: left;}
   border-bottom: 1px solid #E8E5E5;
 }
 
-.header{margin-bottom: 10px;}
 .footer{border-top: 1px solid #E8E5E5;margin-top: 10px;}
 .mainer{border: 1px solid  #eee;min-height: 100%;}
 @media screen and (min-width:940px) {

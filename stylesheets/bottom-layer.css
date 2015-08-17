@@ -29,6 +29,7 @@ ul{padding-left: 0px;list-style-type: none;}
 .list{width: 100%;text-align: center;}
 
 .list>li{list-style-type: none;padding: 10px;border-bottom: 1px solid #eee;  text-align: left;}
+.list>li:nth-last-child(0){list-style-type: none;padding: 10px;border-bottom: 1px solid #eee;  text-align: left;}
 
 
 .showroom{padding: 10px;}

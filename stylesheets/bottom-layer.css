@@ -6,10 +6,11 @@ input[type='text']{outline: none;padding: 10px;text-align: left;}
   width: 100%;
   background-color: white;
   display: -webkit-box;
+    display: -webkit-inline-box;
 }
 
 .footer{border-top: 1px solid #E8E5E5;margin-top: 10px;}
-.mainer{border: 1px solid  #eee;min-height: 100%;}
+.mainer{border: 1px solid  #eee;min-height: 100%;  display: -webkit-inline-box;}
 @media screen and (min-width:940px) {
 	.header{width: 100%;}
 	.container{width: 940px;}

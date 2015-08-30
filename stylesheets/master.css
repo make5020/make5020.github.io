@@ -1,9 +1,15 @@
-.header{ background:#09F;}
-.header a{color:#FFF;}
-.header fa{color:#FFF;}
-.list>li:hover {
-  background-color: #FFFFFF;
-}
-.nav>li:hover {
-  background: #0088E2;
+body{ background-color:#eee;}
+header{border-bottom:0px; position: fixed;}
+nav li{padding:0px 19px;    font-size: small;}
+main{padding-top: 50px;}
+footer{text-align: center;}
+
+
+
+.page,.doc {
+  width: 100%;
+ background-image:url(8245632244_f26259c9f9_o-copy1.jpg);/** **/
+  height:500px;
+  background-position: center center;
+  background-size: cover;
 }

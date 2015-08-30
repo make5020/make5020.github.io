@@ -17,10 +17,16 @@ samp{font-family: inherit;}
 .fa {
   color: rgb(67, 154, 209);
 }
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
 
-@media screen and (min-width: 1366px)
-.container {
-  width: 1000px;
+.sliders {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
 }
 
 

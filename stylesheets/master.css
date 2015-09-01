@@ -44,3 +44,68 @@ header,footer{background-color:#31B573;color:#fff;}
     text-align: center;
 	line-height:50px;
 }
+.ami-bolt{font-size:22px;text-align: center;}
+.ami-source{ text-align:center; padding:10px 0px;}
+
+[type*=xmp] {
+    display: block;
+    padding:10px 0px 0px 200px;
+    text-align: left;
+}
+/**font**/       
+@font-face {
+	font-family: 'LearningCurve_OT';
+	src:url('../font/fonts/LearningCurve_OT.otf'); /* IE9 Compat Modes */
+	src: url('../font/fonts/LearningCurve_OT.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../font/fonts/LearningCurve_OT.otf') format('woff'), /* Modern Browsers */
+		 url('../font/fonts/LearningCurve_OT.otf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../font/fonts/LearningCurve_OT.otf#LearningCurve_OT') format('svg'); /* Legacy iOS */
+   }
+@font-face {
+	font-family: 'LearningCurveDashed_OT';
+	src:url(../font/fonts/LearningCurveDashed_OT.otf); /* IE9 Compat Modes */
+	src: url('../font/fonts/LearningCurveDashed_OT.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../font/fonts/LearningCurveDashed_OT.otf') format('woff'), /* Modern Browsers */
+		 url('../font/fonts/LearningCurveDashed_OT.otf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../font/fonts/LearningCurveDashed_OT.otf#LearningCurve_OT') format('svg'); /* Legacy iOS */
+   }
+@font-face {
+	font-family: 'JosefinSlab-LightItalic';
+	src:url(../font/fonts/JosefinSlab-LightItalic.ttf); /* IE9 Compat Modes */
+	src: url('../font/fonts/JosefinSlab-LightItalic.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../font/fonts/JosefinSlab-LightItalic.ttf') format('woff'), /* Modern Browsers */
+		 url('../font/fonts/JosefinSlab-LightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../font/fonts/JosefinSlab-LightItalic.ttf#JosefinSlab-LightItalic') format('svg'); /* Legacy iOS */
+   }
+@font-face {
+	font-family: 'Mutlu__Ornamental';
+	src:url(../font/fonts/Mutlu__Ornamental.ttf); /* IE9 Compat Modes */
+	src: url('../font/fonts/Mutlu__Ornamental.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../font/fonts/Mutlu__Ornamental.ttf') format('woff'), /* Modern Browsers */
+		 url('../font/fonts/Mutlu__Ornamental.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../font/fonts/Mutlu__Ornamental.ttf#JosefinSlab-LightItalic') format('svg'); /* Legacy iOS */
+   }
+[type^='button'] {
+    padding: 8px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #eee;
+    margin: 10px;
+    border-radius: 2px;
+}
+.springgreen {
+    background-color:springgreen;
+    border: 1px solid springgreen;
+	color:#FFF;
+}
+.coral{ 
+	background-color:coral;
+	border:1px solid coral;
+	color:#FFF;
+	}
+.black {
+    background-color: black;
+    border: 1px solid black;
+    color: #FFF;
+}
+.ami-component{ padding:10px;}
+.ami-component-list{ padding:15px 10px;    background-color: #F7F7F7;}

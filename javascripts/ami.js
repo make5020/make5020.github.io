@@ -17,7 +17,7 @@ $(function($){
     });
 });
 
-    function    HTMLEnCode(str)   
+    function    HTMLEnCode(str)    
     {   
          var    s    =    "";   
          if    (str.length    ==    0)    return    "";   

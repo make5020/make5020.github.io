@@ -124,6 +124,7 @@ footer {
 .tab-contents .tab-content{width: 100%;min-height: inherit;display: none;padding:10px;}
 .tab-active{ background-color: #eee;}
 .tab-contents .tab-content-active{display: block;}
+/**显示源代码**/
 code {
     font-size: 18px;
     font-family: monospace;
@@ -134,6 +135,24 @@ code {
     border: 1px solid #eee;
 }
 .code-title{ padding: 10px;font-family: inherit;font-size: 12px;}
+/**面板组件**/
+.ami-panel {
+    height: initial;
+    border: 1px solid #eee;
+    margin:10px  0px;
+}
+.ami-panel-title {
+    min-height: 50px;
+    line-height: 50px;
+    padding: 0px 10px;
+    width: inherit;
+    border-bottom: 1px solid #eee;
+    background-color: #F7F7F7;
+}
+.ami-panel-content {
+    width: 100%;
+    min-height: 150px;
+}
 /**表单组件**/
 input[type^=text] {
     padding: 10px 15px;

@@ -9,10 +9,7 @@ header {
 }
 nav li{float:left;}
 .container{ width:1200px;}
-@media only screen and (max-width: 768px){
-   .container{ width:100%;}
-   nav{ display:none;}
-}
+
 *{margin: 0 auto;; padding:0;}
 .fl{ float:left;}
 .fr{ float:right;}

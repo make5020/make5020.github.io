@@ -47,7 +47,7 @@ header,footer{background-color:#31B573;color:#fff;}
 .ami-source{ text-align:center; padding:10px 0px;}
 .ami-component,.ami-bolt{ padding:10px; font-weight:bolder; font-size:1.2em;}
 .ami-component-list,.ami-forms-list{ padding:15px 10px;    background-color: #F7F7F7;}
-.ami-bottons,.ami-forms{ padding:10px 10px; font-weight:bold;}
+.ami-bottons,.ami-forms,.ami-tabs{ padding:10px 10px; font-weight:lighter;}
 [type*=xmp] {
     display: block;
     padding:10px 0px 0px 200px;

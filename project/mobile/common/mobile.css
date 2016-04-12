@@ -1,1 +1,9 @@
-header{background-color: #00BFFF;color: white;}
+header {
+    background-color: #FFFFFF;
+    color: #D5D4DA;
+    background: url("images/1459932245991.jpg");
+    background-position: center 0;
+    height: 762px;
+    background-repeat: no-repeat;
+}
+.nav>div{padding-left: 20px;padding-right: 20px;}

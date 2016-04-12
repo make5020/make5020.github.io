@@ -8,6 +8,7 @@ header {
   background-color: #fff;
 }
 nav li{float:left;}
+.nav>div{display: inline-block;}
 .container{ width:1200px;}
 
 .row>div{display: inline-block;}

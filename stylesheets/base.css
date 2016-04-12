@@ -23,7 +23,7 @@ footer {
 [class*=btn-]{
     padding: 8px 20px;
     background-color: #FFFFFF;
-    border: 1px solid #eee;
+    border: 1px solid #CAC8C8;
     margin: 10px;
     border-radius: 2px;
 }

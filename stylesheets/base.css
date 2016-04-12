@@ -10,6 +10,8 @@ header {
 nav li{float:left;}
 .container{ width:1200px;}
 
+.row>div{display: inline-block;}
+
 *{margin: 0 auto;; padding:0;}
 .fl{ float:left;}
 .fr{ float:right;}
@@ -243,6 +245,7 @@ form label{vertical-align: middle;padding:10px !important;}
 .deepskyblue{color:#00BFFF;}
 .gainsboro{color:gainsboro;}
 .blue{color:blue;}
+/*.{color:;}
 .{color:;}
 .{color:;}
 .{color:;}
@@ -258,8 +261,7 @@ form label{vertical-align: middle;padding:10px !important;}
 .{color:;}
 .{color:;}
 .{color:;}
-.{color:;}
-.{color:;}
+.{color:;}*/
 
 /****/
 .bgwhite{background:white}
@@ -337,7 +339,6 @@ hr{height:1px;border:none;border-top:1px solid #DFDFDF;}
 .cr1{color:#DBDBDB}
 .cr2{color: #c7c9cf;}
 
-.
 .tc{text-align: center;}
 .of{overflow: auto; }
 
@@ -375,17 +376,17 @@ font-family: inherit;
 
 
 @font-face {
-	font-family:"yingbixingshu";src:url(../../common/font/weiruanxingkai.ttf);
+	font-family:"yingbixingshu";src:url(/font/fonts/JosefinSlab-LightItalic.ttf);
 	font-weight:normal;
 	font-style:normal;
 }
 @font-face {
-	font-family:"haiyi";src:url(../../common/font/haiyi.ttf);
+	font-family:"haiyi";src:url(/font/fonts/LearningCurveDashed_OT.otf);
 	font-weight:normal;
 	font-style:normal;
 }
 @font-face {
-	font-family:"huangcao";src:url(../../common/font/weiruanxingkai.ttf);
+	font-family:"huangcao";src:url(/font/fonts/LearningCurve_OT.otf);
 	font-weight:normal;
 	font-style:normal;
 }

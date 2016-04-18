@@ -3,6 +3,7 @@
 
 .header {
   background-color: #439AD1;
+    line-height: 20px;
 }
 .header *{ color:#fff;}
 .ptb-10{ padding:10px 0px;}
@@ -28,7 +29,6 @@ samp{font-family: inherit;}
 .mainer .content .yisheng-box {
     float: left;
     margin: 15px 0px 0px 10px;
-
     padding: 37px;
     height: inherit;
 }

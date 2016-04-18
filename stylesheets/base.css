@@ -1,13 +1,13 @@
 @CHARSET "UTF-8";
 body{padding: 0px; margin: 0px auto; font-family: arial,'microsoft yahei',"\5B8B\4F53",sans-serif;,sans-serif;overflow: inherit;}
 a{color: inherit;}
-header {
+.header {
   width: 100%;
   min-height: 50px;
   line-height: 50px;
   background-color: #fff;
 }
-nav li{float:left;}
+nav li,.nav li{float:left;}
 .nav>div{display: inline-block;}
 .container{ width:1200px;}
 

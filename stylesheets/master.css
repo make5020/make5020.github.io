@@ -1,8 +1,8 @@
 body{ background-color:#eee;}
-header{border-bottom: 1px solid rgb(44, 173, 109);position: fixed; z-index:1000;}
+.header{border-bottom: 1px solid rgb(44, 173, 109);position: fixed; z-index:1000;background: #31B573;color: #ffffff;}
 nav li{padding:0px 19px;    font-size: small;}
-main{padding-top: 50px;}
-main .container{ background-color:#FFF; margin:10px auto; padding:10px;}
+.main{padding-top: 50px;}
+.main .container{ background-color:#FFF; margin:10px auto; padding:10px;}
 footer{text-align: center;border-top: 1px solid rgb(44, 173, 109);}
 header,footer{background-color:#31B573;color:#fff;}
 
@@ -53,6 +53,14 @@ header,footer{background-color:#31B573;color:#fff;}
     padding:10px 0px 0px 200px;
     text-align: left;
 }
+
+.show-box.row>div {
+    width: 500px;
+    padding: 20px 20px;
+    margin: 5px 27px;
+    border: 1px solid #eee;
+}
+.show-box.row img{width: 100%;}
 /**font**/       
 @font-face {
 	font-family: 'LearningCurve_OT';

@@ -1,20 +1,57 @@
-header {
+.menu{
+    line-height: 60px;
+    position: fixed;
+    width: 100%;
+    background-color: #FF6060;
+    color: #ffffff;
+    top: 0px;
+    font-size: 14px;
+}
+.menu .logo{font-size: 22px;}
+.header {
     background-color: #FFFFFF;
     color: #D5D4DA;
     background: url("images/1459932245991.jpg");
     background-position: center 0;
     height: 762px;
     background-repeat: no-repeat;
+    margin-top: 60px;
 }
 .nav>div{padding-left: 20px;padding-right: 20px;}
 
-main{text-align: center; margin-top:20px;}
-main .row>div{
+.main{text-align: center; margin-top:20px;}
+.main .row>div{
     width:31%;
-    border: 1px solid #eee;
+    border: 1px solid #ffffff;
     padding: 10px;
 }
-main .row>div>img{float: left;}
-main .container{width: 1424px;}
+.main .row>div>img{float: left;}
+.main .container{width: 1424px;}
 
-footer{border-top: 1px solid #eeeeee;height: 400px;}
+.main  .row.item-02{margin-top: 10px;margin-bottom: 10px;}
+.main  .row.item-02>div{width: 17.5% !important;border: 0px;line-height: 50px;}
+.main  .row.item-02>div>i{padding-right: 10px;font-size: 22px;}
+
+
+.footer{border-top: 1px solid #eeeeee;height: 200px;position: inherit;bottom: 0px;width: 100%;background-color: #ffffff;color: #000000;padding-top: 10px;}
+.footer .row>div {
+    width: 15.5%;
+    text-align: left;
+    margin-top: 10px;
+    border-right: 1px solid #eeeeee;
+    padding-left: 100px;
+}
+.footer .row>div:nth-last-child(1){border: 0px;}
+.footer .row>div>div{line-height: 28px;font-size: 12px;}
+
+.end{
+    border-top: 1px solid #eeeeee;
+    background-color: #eeeeee;
+}
+.end .container{padding: 20px;}
+.end .row a{padding-left: 20px;font-size: 12px;}
+
+
+
+/**基础**/
+.plr10{padding-right: 10px;padding-left: 10px;}

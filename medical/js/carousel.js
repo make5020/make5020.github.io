@@ -14,7 +14,7 @@
 	//定义方法
 	Carousel.prototype={
 		manualy:function(){
-			alert(1);
+
 		}
 	}
 	//在插件中使用carousel对象

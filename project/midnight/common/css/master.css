@@ -1,0 +1,15 @@
+@import url(base.css);
+@import url(../font/iconfont.css);
+@import url(skin/default.css);
+/*@import url(skin/white.css);*/
+.mobile-box{
+    border: 1px solid #eee;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 70px;
+    display: none;
+    top: 45px;
+}
+.mobile-box img{width: 100%;}

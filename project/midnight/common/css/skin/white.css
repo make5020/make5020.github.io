@@ -1,0 +1,5 @@
+body{background-color:white;}
+.header{line-height: 45px;height: 45px;background-color: #FFFFFF;color: #000;border-bottom: 1px solid #EAEAEA;}
+.header .logo{font-size: 46px;font-style: initial;padding-right: 10px;}
+.nav li{padding-left: 10px;padding-right: 10px;}
+.nav li.active,.nav li:hover{background: #F7F7F7;color: #000;}

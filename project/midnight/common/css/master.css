@@ -1,7 +1,7 @@
 @import url(base.css);
 @import url(../font/iconfont.css);
 @import url(skin/default.css);
-/*@import url(skin/white.css);*/
+@import url(skin/white.css);/**/
 .mobile-box{
     border: 1px solid #eee;
     position: absolute;

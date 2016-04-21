@@ -3,3 +3,19 @@ body{background-color: #292929;}
 .header .logo{font-size: 46px;font-style: initial;padding-right: 10px;}
 .nav li{padding-left: 10px;padding-right: 10px;}
 .nav li.active,.nav li:hover{background: #121926;}
+
+.types-box{ margin-top: 20px;}
+.types-box>div {
+    width: 24%;
+    border: 1px solid #1B1B1B;
+    margin-right: 11px;
+    background-color: #1F2232;
+    color: white;
+}
+.types-box>div:nth-last-child(1){margin-right: 0px;border-right: 0px;}
+
+.types-title{border-bottom: 1px solid #151414;}
+
+
+.item-01>div{width: 100%; margin-top: 10px;background-color: #1F2232;color: #ffffff;}
+.title{border-bottom: 1px solid #151414;}

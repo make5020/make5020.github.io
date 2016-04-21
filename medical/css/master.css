@@ -1,7 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
+@import url(base.css);
+@import url(layout.css);
+@import url(skin/themes.css);
 
-.header {
+/*.header {
   background-color: #439AD1;
     line-height: 20px;
 }
@@ -48,5 +51,5 @@ samp{font-family: inherit;}
 }
 
 
-.mt10{margin-top: 10px;}
+.mt10{margin-top: 10px;}*/
 

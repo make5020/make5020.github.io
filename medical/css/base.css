@@ -1,0 +1,30 @@
+html,body,ul, menu, dir,h1,h2,h3,h4,h5,h6{margin: 0px auto;padding: 0px;}
+a{text-decoration: none;color: inherit;}
+
+.toper,.mainer,.footer{width: 100%;}
+.mainer{display: table;}
+
+.container{margin: 0px auto;}
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+
+.tx-l{text-align: left;}
+.tx-r{text-align: right;}
+
+.nav>li,.row>*{display: inline-block;}
+
+.mt10{margin-top: 10px;}
+.mtb5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.p10{padding: 10px;}
+.p15{padding: 15px;}
+.ptb10{padding-top: 10px;padding-bottom: 10px;}
+.plr10{padding-left: 10px;padding-right: 10px;}
+
+
+.brb1{border-bottom: 1px solid #eeeeee;}

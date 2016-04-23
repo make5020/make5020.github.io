@@ -20,6 +20,7 @@ body{font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1",arial;}
 
 .left{float: left;}
 .right{float: right;}
+.clear{clear: both;}
 .dn{display: none;}
 
 
@@ -28,6 +29,10 @@ body{font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1",arial;}
 .ptb5{padding-top: 5px;padding-bottom: 5px;}
 .ptb10{padding-top: 10px;padding-bottom: 10px;}
 
+.mt10{margin-top: 10px;}
 .middle{vertical-align: middle;}
 
 a{text-decoration: none;color: inherit;}
+img {
+    float: left;
+}

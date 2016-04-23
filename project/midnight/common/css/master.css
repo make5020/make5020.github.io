@@ -13,3 +13,47 @@
     top: 45px;
 }
 .mobile-box img{width: 100%;}
+
+
+
+@keyframes myfirst
+{
+    0%   {top: 0px;}
+    10%   {top: 0px;}
+    20%  {top: -332px;}
+    30%  {top: -332px;}
+    40%  {top: -664px;}
+    50%  {top: -664px;}
+    60%  {top: -996px;}
+    70%  {top: -996px;}
+    80%  {top: 0px;}
+    100% {top:0px;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    0%   {top: 0px;}
+    15%   {top: -321px;}
+    25%  {top: -642px;}
+    50%  {top: -963px;}
+    100% {top:0px;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+    0%   {top: 0px;}
+    15%   {top: -321px;}
+    25%  {top: -642px;}
+    50%  {top: -963px;}
+    100% {top:0px;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    0%   {top: 0px;}
+    15%   {top: -321px;}
+    25%  {top: -642px;}
+    35%   {top: -642px;}
+    50%  {top: -963px;}
+    100% {top:0px;}
+}

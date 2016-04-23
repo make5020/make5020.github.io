@@ -55,9 +55,9 @@ header,footer{background-color:#31B573;color:#fff;}
 }
 
 .show-box.row>div {
-    width: 500px;
+    width: 555px;
     padding: 20px 20px;
-    margin: 5px 27px;
+    margin: 5px 0px;
     border: 1px solid #eee;
 }
 .show-box.row img{width: 100%;}

@@ -19,3 +19,16 @@ body{background-color: #292929;}
 
 .item-01>div{width: 100%; margin-top: 10px;background-color: #1F2232;color: #ffffff;}
 .title{border-bottom: 1px solid #151414;}
+
+.f1 .left{width: 1000px;;height: 332px;overflow: hidden;}
+.f1 .right{width: 275px;height: 332px;overflow: hidden;}
+.f1 .right img{width: 100.7%;}
+
+.f1 .left>img{float: left;}
+.fl .left>.convet{
+    position: absolute;
+    height: 321px;
+    overflow: hidden;
+    -webkit-animation:myfirst 5s infinite;
+    -webkit-animation-direction:alternate;
+}

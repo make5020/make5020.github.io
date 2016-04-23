@@ -19,3 +19,17 @@ body{background-color:white;}
 
 .item-01>div{width: 100%; margin-top: 10px;background-color: #ffffff;color: #000000;border: 1px solid #F7F7F7;}
 .title{border-bottom: 1px solid #F7F7F7;}
+
+
+.f1 .left{width: 1000px;;height: 332px;overflow: hidden;    position: absolute;}
+.f1 .right{width: 275px;height: 332px;overflow: hidden;}
+.f1 .right img{width: 100.7%;}
+
+.f1 .left>.convet{
+    position: absolute;
+    overflow: hidden;
+    -webkit-animation:myfirst 30s infinite;
+    -webkit-animation-direction:normal;
+    animation-duration:10s;
+    -webkit-animation-duration:10s;
+}

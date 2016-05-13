@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="http://make5020.github.io/stylesheets/base.css"/>
     <link rel="stylesheet" href="common/font/iconfont.css"/>
     <link rel="stylesheet" href="common/mobile.css"/>
+    <script src="../../javascripts/azimuth.js"></script>
 </head>
 <body>
 <div class="menu">
@@ -36,31 +37,47 @@
     </div>
 </div>
 <div class="header">
-    <div class="container">
-
-    </div>
+        <div class="header-box">
+            <div>
+                <div>
+                    <img src="common/images/1461134541398.jpg">
+                </div>
+                <div>
+                    <img src="common/images/1459932245991.jpg" alt=""/>
+                </div>
+                <div>
+                    <img src="common/images/1462780403143.jpg" alt=""/>
+                </div>
+            </div>
+            <div>
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+        </div>
 </div>
 <div class="main">
-    <div class="container">
+
         <div class="row">
-            <div class="one">
+            <div class="one br">
                 <img src="common/images/1452753018704.jpg" width="100%">
             </div>
-            <div class="two">
+            <div class="two br">
                 <img src="common/images/1460013795413.jpg" width="100%">
             </div>
-            <div class="three">
+            <div class="three br">
                 <img src="common/images/1453358696586.jpg" width="100%">
             </div>
         </div>
 
-        <div class="row item-02">
+        <div class="row item-02 bgwhite br">
             <div><i class="icon iconfont"></i>注册</a><a href="//m.kuaidi100.com" target="_blank">快递查询</a></div>
             <div><i class="icon iconfont"></i>520余家售后网点</div>
             <div><i class="icon iconfont"></i>15天免费换货</div>
             <div><i class="icon iconfont"></i>7天无理由退货</div>
             <div><i class="icon iconfont"></i>1小时快修服务</div>
         </div>
+    <div class="container">
     </div>
 
 </div>
@@ -134,3 +151,9 @@
 </div>
 </body>
 </html>
+<script type="text/javascript">
+    $(".header-box").AzimuthSlide({
+        'speed':5000,
+        'height':'760'
+    });
+</script>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Android</title>
+    <!--link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen"-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/base.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="stylesheets/bottom-layer.css"/>-->
+    <link rel="stylesheet" type="text/css" href="font/bottom-font.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/master.css"/>
+    <script src="jquery-1.8.0/jquery-1.8.0.min.js"></script>
+    <script src="javascripts/ami.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="header bg-tomato br0">
+    <div class="container">
+        <div class="row">
+            <div class="fl">
+                Android基础
+            </div>
+            <div class="plr20 fs12">
+                <a href="android.html">首页</a>
+            </div>
+            <div class="fr fs12">
+                联系我
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="container">
+        <div class="ptb10 bb1 plr10">
+            常见问题
+        </div>
+        <div class="box bb1 ptb10">
+            <div class="lh ptb10">
+                Android 网络访问之 android.os.NetworkOnMainThreadException
+            </div>
+            <div class="lh">
+                解决方法：
+                1,。在主线程中不能使用网络服务，所以劲量吧网络访问放到新开辟的线程中</br>
+                2.强制在主线程访问网络，这种方式不推荐
+                if (android.os.Build.VERSION.SDK_INT > 9) {
+                StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+                StrictMode.setThreadPolicy(policy);
+                }
+            </div>
+        </div>
+        <div class="box ptb10">
+            <div class="lh ptb10">
+                Android  内存溢出之 java.lang.OutOfMemoryError
+            </div>
+            <div class="lh">
+                解决方法：
+                1,。在主线程中不能使用网络服务，所以劲量吧网络访问放到新开辟的线程中</br>
+                2.强制在主线程访问网络，这种方式不推荐
+                if (android.os.Build.VERSION.SDK_INT > 9) {
+                StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+                StrictMode.setThreadPolicy(policy);
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer fs12">
+    <div class="container">
+        <div class="row">
+            <div></div>
+            <div>联系方式QQ：1605009393</div>
+            <div></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

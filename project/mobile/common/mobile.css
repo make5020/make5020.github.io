@@ -1,3 +1,6 @@
+body{
+    background-color: #f5f5f5;
+}
 .menu{
     line-height: 60px;
     position: fixed;
@@ -6,12 +9,13 @@
     color: #ffffff;
     top: 0px;
     font-size: 14px;
+    z-index: 102;
 }
 .menu .logo{font-size: 22px;}
 .header {
     background-color: #FFFFFF;
     color: #D5D4DA;
-    background: url("images/1459932245991.jpg");
+   /* background: url("images/1459932245991.jpg");*/
     background-position: center 0;
     height: 762px;
     background-repeat: no-repeat;
@@ -24,6 +28,7 @@
     width:31%;
     border: 1px solid #ffffff;
     padding: 10px;
+    background: #ffffff;
 }
 .main .row>div>img{float: left;}
 .main .container{width: 1424px;}
@@ -46,7 +51,8 @@
 
 .end{
     border-top: 1px solid #eeeeee;
-    background-color: #eeeeee;
+    color: #EAEAEA;
+    background-color: #000000;
 }
 .end .container{padding: 20px;}
 .end .row a{padding-left: 20px;font-size: 12px;}

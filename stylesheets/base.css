@@ -18,7 +18,7 @@ nav li,.nav li{float:left;}
 .fl{ float:left;}
 .fr{ float:right;}
 
-footer {
+footer,.footer{
   min-height: 100px;
   background-color: #fff;
   padding: 10px 0px;
@@ -269,7 +269,9 @@ form label{vertical-align: middle;padding:10px !important;}
 .bgwhite{background:white}
 .g{}
 
-
+.plr10{padding-left: 10px;padding-right: 10px;}
+.plr20{padding-left: 20px;padding-right: 20px;}
+.ptb10{padding-top: 10px;padding-bottom: 10px;}
 
 /**字体大小**/
 .fs12{font-size: 12px;}
@@ -287,7 +289,7 @@ form label{vertical-align: middle;padding:10px !important;}
 hr{height:1px;border:none;border-top:1px solid #DFDFDF;}
 
 .br{border: 1px solid #eee;}
-.br0{border: 0px solid;}
+.br0{border: 0px solid !important;}
 .br1{border-right: 1px solid;}
 .bb1{border-bottom: 1px solid #EDEDED;}
 .bl1{border-left: 1px solid;}
@@ -334,6 +336,7 @@ hr{height:1px;border:none;border-top:1px solid #DFDFDF;}
 .bgblack{background: #202020;}
 .bgblue{background-color:blue;}
 .bgcornflowerblue{background-color:cornflowerblue;}
+.bg-tomato{background-color: tomato!important;}
 
 
 

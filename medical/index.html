@@ -74,6 +74,8 @@
                         <i></i>
                         <i></i>
                     </div>
+                    <div><i class="bar"><</i></div>
+                    <div><i class="bar">></i></div>
                 </div>
 
 
@@ -89,8 +91,9 @@
             <div class="clear"></div>
         </div>
         <div class="row mt10">
-            <div class="left">
-                <div class="row  brb1">
+            <div class="item left panel-box">
+                <div class="brb1">
+                    <div class="left row tabs-event">
                     <div>
                         <h2 class="p10">妇产科</h2>
                     </div>
@@ -103,31 +106,78 @@
                     <div>
                         <a href="javascript:void(0)" class="plr10">卵巢囊肿</a>
                     </div>
+                    </div>
+                    <div class="right  tabs-other">
+                        <div class="row plr10">
+                            <div class="left-bar"><i class="bar"><</i></div>
+                            <div class="slider-o">
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <div class="right-bar"><i class="bar">></i></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
                 </div>
                 <div>
-                    <ul class="user-panel">
-                        <li>
-                            <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
-                        </li>
-                        <li>
-                            <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
-                        </li>
-                        <li>
-                            <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
-                        </li>
-                        <li>
-                            <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
-                        </li>
-                        <li>
-                            <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
-                        </li>
-                        <li>
-                            <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
-                        </li>
-                    </ul>
+                    <div class="tabs-contents">
+                        <div>
+                            <ul class="user-panel">
+                                <div class="user-one-box">
+                                    <div>
+                                        <div>
+                                            <li>
+                                                <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src="images/7aec54e736d12f2e59dd39694fc2d562843568db.jpg" alt=""/>
+                                            </li>
+                                        </div>
+                                        <div>
+                                            <li>
+                                                <img src="images/timg.jpg" alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src="images/timg.jpg" alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src="images/timg.jpg" alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src="images/timg.jpg" alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src="images/timg.jpg" alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src="images/timg.jpg" alt=""/>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="p10">1</div>
+                        </div>
+                        <div><div class="p10">2</div></div>
+                        <div><div class="p10">3</div></div>
+                    </div>
                 </div>
             </div>
-            <div class="right">
+            <div class="item right">
                 <div>
                     <div class="p15 tx-l brb1">名医直通车</div>
                 </div>
@@ -326,15 +376,28 @@
 </html>
 <script language="javascript">
 	$(function($){
-		/*$(".carousel").manual({
-			'readTo':'.carousel',
-			'width':'100%',
-			'height':'450px'
-		});*/
         $(".user-box").AzimuthSlide({
             'width':800,
             'height':350,
             'speed':5000
+        });
+        $(".user-one-box").AzimuthSlide({
+            'auto':false,
+            'width':795,
+            'height':660,
+            'speed':5000,
+            'leftBar':'left-bar',
+            'rightBar':'right-bar',
+            'sliderO':'slider-o',
+            'sliderOColor':'black',
+            'sliderOActive':'teal'
+        });
+        $(".panel-box").AzimuthTabs({
+            'width':800,
+            'height':722,
+            'tabsTitle':'tabs-event',
+            'tabsContents':'tabs-contents',
+            'tabsOther':'tabs-other'
         });
 	});
 </script>

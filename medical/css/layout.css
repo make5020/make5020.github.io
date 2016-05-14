@@ -17,10 +17,9 @@
 .silder-b{width: 397px;border-left: 0px;}
 .silder-b>div{height: 175px;border-bottom: 1px solid #eeeeee;}
 .silder-b>div:nth-last-child(1){border-bottom: 0px;}
-
-.mainer .left{width: 800px;background: #ffffff;}
-.mainer .left .title-box h2{padding: 5px;}
-.mainer .right{width: 397px;background: #ffffff;}
+.item.left{width: 800px;background: #ffffff;}
+.item.left .title-box h2{padding: 5px;}
+.item.right{width: 397px;background: #ffffff;}
 .nav>*{padding-left: 10px;padding-right: 10px;}
 
 .user-panel{padding: 5px;}

@@ -12,6 +12,7 @@
       <link rel="stylesheet" type="text/css" href="stylesheets/master.css"/>
       <script src="jquery-1.8.0/jquery-1.8.0.min.js"></script>
       <script src="javascripts/ami.js" type="text/javascript"></script>
+      <script src="http://make5020.github.io/javascripts/azimuth.js" type="text/javascript"></script>
   </head>
   <body>
   	<div class="header">
@@ -52,8 +53,11 @@
             	<script type="text/xmp">		
 				<script src="http://make5020.github.io/javascripts/1.8.0/jquery-1.8.0.js" type="text/javascript"></script>
                 </script>
+                <script type="text/xmp">
+                        <script src="http://make5020.github.io/javascripts/azimuth.js" type="text/javascript"></script>
+                </script>
                 <script type="text/xmp">				
-				<link rel="stylesheet" type="text/css" href="http://make5020.github.io/font/bottom-font.css"/>
+				    <link rel="stylesheet" type="text/css" href="http://make5020.github.io/font/bottom-font.css"/>
                 </script>
                 <script type="text/xmp">				
 				<link rel="stylesheet" type="text/css" href="http://make5020.github.io/stylesheets/base.css"/>
@@ -104,25 +108,55 @@
             </code>
            <div class="ami-panels">3.面板组件</div>
                <div class="ami-panel">
-                <div class="ami-panel-title">
-                 面板   
+                    <div class="ami-panel-title">
+                     面板
+                    </div>
+                    <div class="ami-panel-content">
+
+                    </div>
                 </div>
-                <div class="ami-panel-content">
-               
-                </div>
-           </div>
           <div class="code-title">1-2源代码实例</div>
-          <code>
-              <div class="ami-panel">
-                <div class="ami-panel-title">
-                 面板   
+            <code>
+                <div class="ami-panel">
+                    <div class="ami-panel-title">
+                        面板
+                    </div>
+                    <div class="ami-panel-content">
+
+                    </div>
                 </div>
-                <div class="ami-panel-content">
-               
-                </div>
-           </div>
-          </code>
+            </code>
         </div>
+
+          <div class="slider-box">
+          <div>
+              <div class="bg-tomato"></div>
+              <div class="bgblack"></div>
+              <div class="bgblue"></div>
+          </div>
+          <div>
+              <i></i>
+              <i></i>
+              <i></i>
+          </div>
+          </div>
+
+          <div class="code-title">1-2源代码实例</div>
+          <code class="code-slider">
+              <div class="slider-box">
+                  <div>
+                      <div class="bg-tomato"></div>
+                      <div class="bgblack"></div>
+                      <div class="bgblue"></div>
+                  </div>
+                  <div>
+                      <i></i>
+                      <i></i>
+                      <i></i>
+                  </div>
+              </div>
+          </code>
+      </div>
       </div>
     </div>
     <footer>
@@ -134,3 +168,13 @@
     </footer>
   </body>
 </html>
+<script language="javascript">
+    $(function($){
+        $(".slider-box").AzimuthSlide({
+            'width':800,
+            'height':350,
+            'speed':5000
+        });
+        $(".code-slider").AzimuthCode();
+    });
+</script>

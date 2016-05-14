@@ -19,7 +19,7 @@ $(function($){
 
     function    HTMLEnCode(str)    
     {   
-         var    s    =    "";   
+         /*var    s    =    "";
          if    (str.length    ==    0)    return    "";   
          s    =    str.replace(/&/g,    "&gt;");   
          s    =    s.replace(/</g,        "&lt;");   
@@ -28,7 +28,7 @@ $(function($){
          s    =    s.replace(/\'/g,      "'");   
          s    =    s.replace(/\"/g,      "&quot;");   
          s    =    s.replace(/\n/g,      "<br>");   
-         return    s;   
+         return    s;   */
     }   
     function    HTMLDeCode(str)   
     {   

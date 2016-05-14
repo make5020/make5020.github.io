@@ -5,15 +5,15 @@
     var Azimuth=function(ele,options){
         this.$element =ele;
         this.defaults ={
-            'speed':'500',
-            'height':$(window).height(),
-            'width':$(window).width(),
+            'speed':'500',//滑动速度
+            'height':$(window).height(),//默认高度
+            'width':$(window).width(),//默认宽度
             'backgroundColor': 'white',
-            'auto':true,
-            'start':0,
-            'textAlign':'center',
-            'leftBar':'',
-            'rightBar':'',
+            'auto':true,//是否自动
+            'start':0,//从第几个开始
+            'textAlign':'center',//显示为师傅居中
+            'leftBar':'',//向左手动
+            'rightBar':'',//向左手动
             'sliderO':'',
             'sliderOColor':'white',
             'sliderOActive':'black',
@@ -149,6 +149,21 @@
                 $($($this).find("."+options.tabsOther).children()[index]).css({'display':'block'});
             });
 
+        },
+        code:function(options){
+            debugger;
+            var $this= $(this.$element);
+            var str=$this.html();
+            if    (str.length    ==    0)    return    "";
+            s    =    str.replace(/&/g,    "&gt;");
+            s    =    s.replace(/</g,        "&lt;");
+            s    =    s.replace(/>/g,        "&gt;");
+            s    =    s.replace(/    /g,        "&nbsp;");
+            s    =    s.replace(/\'/g,      "'");
+            s    =    s.replace(/\"/g,      "&quot;");
+            s    =    s.replace(/\n/g,      "<br>");
+            console.log(s);
+            $this.html(s)
         }
     }
 
@@ -169,5 +184,9 @@
     $.fn.AzimuthTabs=function(options){
         var azimuth=new Azimuth(this,options);
         return azimuth.tabs(azimuth.settings);
+    }
+    $.fn.AzimuthCode=function(options){
+        var azimuth=new Azimuth(this,options);
+        return azimuth.code(azimuth.settings);
     }
 })(jQuery, window, document);

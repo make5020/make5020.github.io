@@ -151,8 +151,8 @@
 
         },
         code:function(options){
-            debugger;
             var $this= $(this.$element);
+            debugger;
             var str=$this.html();
             if    (str.length    ==    0)    return    "";
             s    =    str.replace(/&/g,    "&gt;");

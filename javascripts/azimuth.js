@@ -27,13 +27,11 @@
     Azimuth.prototype={
         top:function(options){
           this.$element.on("click", function () {
-              debugger;
               $('body,html').animate({ scrollTop: 0 }, options.speed);
           });
         },
         bottom:function(options){
             this.$element.on("click", function () {
-                debugger;
                 $('body,html').animate({ scrollTop: options.height }, options.speed);
             });
         },
@@ -152,7 +150,6 @@
         },
         code:function(options){
             var $this= $(this.$element);
-            debugger;
             var str=$this.html();
             if    (str.length    ==    0)    return    "";
             s    =    str.replace(/&/g,    "&gt;");
@@ -162,8 +159,9 @@
             s    =    s.replace(/\'/g,      "'");
             s    =    s.replace(/\"/g,      "&quot;");
             s    =    s.replace(/\n/g,      "<br>");
-            console.log(s);
-            $this.html(s)
+
+            $this.html(s);
+
         }
     }
 

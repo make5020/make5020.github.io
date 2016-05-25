@@ -127,42 +127,83 @@
                 </div>
             </code>
         </div>
-
+        <div>
           <div class="slider-box">
-          <div>
-              <div class="bg-tomato"></div>
-              <div class="bgblack"></div>
-              <div class="bgblue"></div>
-          </div>
-          <div>
-              <i></i>
-              <i></i>
-              <i></i>
-          </div>
+              <div>
+                  <div class="bg-tomato"></div>
+                  <div class="bgblack"></div>
+                  <div class="bgblue"></div>
+              </div>
+              <div>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+              </div>
           </div>
 
           <div class="code-title">1-2源代码实例</div>
-          <code class="code-slider">
-              <div class="className">
-                  <div>
-                      <div class="bg-tomato"></div>
-                      <div class="bgblack"></div>
-                      <div class="bgblue"></div>
+              <code class="code-slider">
+                  <div class="className">
+                      <div>
+                          <div class="bg-tomato"></div>
+                          <div class="bgblack"></div>
+                          <div class="bgblue"></div>
+                      </div>
+                      <div>
+                          <i></i>
+                          <i></i>
+                          <i></i>
+                      </div>
                   </div>
-                  <div>
-                      <i></i>
-                      <i></i>
-                      <i></i>
-                  </div>
-              </div>
 
-              $(".slider-box").AzimuthSlide({
-              'width':800,
-              'height':350,
-              'speed':5000
-              });
-          </code>
-      </div>
+                  $(".slider-box").AzimuthSlide({
+                  'width':800,
+                  'height':350,
+                  'speed':5000
+                  });
+              </code>
+        </div>
+          <!--回到顶部-->
+          <div>
+              <div class="tools-box center">
+                  <i class="btn-up btn-coral">顶部</i>
+                  <i class="btn-down btn-skyblue">底部</i>
+              </div>
+              <div>
+                  <code class="code-box">
+                      <div class="tools-box">
+                          <i class="btn-up">顶部</i>
+                          <i class="btn-down">底部</i>
+                      </div>
+                      $(".btn-down").AzimuthBottom();
+                      $(".btn-up").AzimuthTop();
+                  </code>
+              </div>
+          </div>
+
+          <!--1-->
+          <div>
+              <div  class="row center">
+                  <em class="up-o"></em>
+                  <br>
+                  <em class="down-o"></em>
+                  <br>
+                  <br>
+                  <em class="left-o"></em>
+                  <br>
+                  <br>
+                  <em class="right-o"></em>
+              </div>
+              <br>
+              <div>
+                  <code class="code-o">
+                      <em class="up-o"></em>
+                      <em class="down-o"></em>
+                      <em class="left-o"></em>
+                      <em class="right-o"></em>
+                  </code>
+              </div>
+          </div>
       </div>
     </div>
     <footer>
@@ -184,6 +225,9 @@
         $(".ami-tabs-box-code").AzimuthCode();
         $(".code-slider").AzimuthCode();
         $(".slider-box-code").AzimuthCode();
-
+        $(".btn-down").AzimuthBottom();
+        $(".btn-up").AzimuthTop();
+        $(".code-box").AzimuthCode();
+        $(".code-o").AzimuthCode();
     });
 </script>

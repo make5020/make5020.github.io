@@ -17,6 +17,7 @@ nav li,.nav li{float:left;}
 *{margin: 0 auto;; padding:0;}
 .fl{ float:left;}
 .fr{ float:right;}
+.center{text-align: center;}
 
 footer,.footer{
   min-height: 100px;
@@ -372,8 +373,26 @@ word-wrap: break-word; /* Internet Explorer 5.5+ */
 font-family: inherit;
 }
 
-
-
+.up-o{
+    border: 8px solid transparent;
+    position: absolute;
+    border-top-color: #191919;
+}
+.down-o{
+    border: 8px solid transparent;
+    position: absolute;
+    border-bottom-color: #191919;
+}
+.left-o{
+    border: 8px solid transparent;
+    position: absolute;
+    border-left-color: #191919;
+}
+.right-o{
+    border: 8px solid transparent;
+    position: absolute;
+    border-right-color: #191919;
+}
 /**字体**/
 .haiyi{font-family: haiyi;font-weight: 100;}
 .yingbixingshu{font-family: haiyi;font-weight: 100;}

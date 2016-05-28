@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="common/css/master.css"/>
+    <script src="http://www.52player.com/Demos/CuSunPlayerV35basic/images/swfobject.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="left logo-box">
+                    <a class="logo" href="http://www.mgtv.com">芒果TV</a>
+                </div>
+                <div>
+                    <ul class="nav">
+                        <li>首页</li>
+                        <li class="down-dorp-box">频道 <img src="common/images/menu.png" alt="" class="sub"/>
+                            <div class="down-dorp">
+                                <ol>闪购</ol>
+                                <ol>秒杀</ol>
+                                <ol>二手市场</ol>
+                                <ol>图书馆</ol>
+                                <ol>户外用具</ol>
+                                <ol>女性</ol>
+                                <ol>海澜之家</ol>
+                                <ol>厨具</ol>
+                            </div>
+                        </li>
+                        <li class="vide-drop-box">直播 <img src="common/images/xla.png" alt="" class="sub"/>
+                            <div class="down-dorp">
+                                <ol>明星连播</ol>
+                                <ol>科技演示</ol>
+                                <ol>颜值爆表</ol>
+                                <ol>二次元</ol>
+                                <ol>御宅达人</ol>
+                                <ol>体育直播</ol>
+                                <ol>广场舞</ol>
+                                <ol>新闻直播</ol>
+                                <ol>影视预报</ol>
+                                <ol>大杂烩</ol>
+                                <ol>脱口秀</ol>
+                                <ol>好声音</ol>
+                            </div>
+                        </li>
+                        <li>订阅 <img src="common/images/cgong.png" alt=""  class="sub"/></li>
+                        <li>新闻</li>
+                        <li>
+                            <input type="text" maxlength="60" class="header-input" data-hotkeyword="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="right plr10 tools">
+                    <a href="javascript:void(0)">会员</a>
+                    <a href="javascript:void(0)">消息</a>
+                    <a href="javascript:void(0)">观看记录</a>
+                    <a href="javascript:void(0)">登录</a>
+                    <a href="javascript:void(0)">注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="mainer mt10">
+    <div class="container">
+        <div class="row">
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+    var so = new SWFObject("player.swf","myCuPlayer","700","450","9","#000000");
+    so.addParam("allowfullscreen","true");
+    so.addParam("allowscriptaccess","always");
+    so.addParam("wmode","opaque");
+    so.addParam("quality","high");
+    so.addParam("salign","lt");
+    //播放器设置文件-----------------------------
+    so.addVariable("JcScpFile","CuSunV2set.xml");
+    //视频文件及略缩图--------------------------
+    //so.addVariable("JcScpServer","rtmp://www.yoursite.com/vod");//流媒体服务器
+    so.addVariable("JcScpAutoPlay","no"); //是否自动播放
+    so.addVariable("JcScpVideoPath","http://demo.cuplayer.com/file/tangled.flv"); //视频文件地址
+    so.addVariable("JcScpImg","images/startpic.jpg");//视频缩略图
+    //-----------------------------------------
+    so.addVariable("JcScpSharetitle","极酷阳光播放器(CuSunPlayerV3.5)版使用官方演示实例");
+    so.write("CuPlayer");
+</script>
+<script language="javascript" src="http://www.52player.com/Demos/CuSunPlayerV35basic/images/jquery.js" type="text/javascript"></script>
+<script language="javascript" src="http://www.52player.com/Demos/CuSunPlayerV35basic/images/action.js" type="text/javascript"></script>

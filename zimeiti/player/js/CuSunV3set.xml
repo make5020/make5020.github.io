@@ -9,7 +9,7 @@
 		JcScpControlHeight="40"	
 		JcScpShowList= "no"
 		JcScpAutoRepeat = "no"
-		JcScpAutoPlay = "yes"
+		JcScpAutoPlay = "no"
 		JcScpsetMode = "1"
 		JcScpAFrontCanClose = "yes"
 		JcScpShowRightmenu = "yes"

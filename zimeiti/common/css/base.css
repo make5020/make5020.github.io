@@ -4,16 +4,28 @@ a{text-decoration: none;color: inherit;}
 .right{float: right;}
 .left{float: left;}
 .sub{vertical-align: sub;}
-ol{margin: 0px auto;padding: 0px;}
-
+.dn{display: none;}
+.db{display: block;}
+div, ul, li, ol, dl, dt, dd, form, img, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.childer-right>*{float: right;}
 .nav,ol{margin: 0px auto;}
 .nav li{float: left;list-style-type: none;}
 
 
 .lh0{line-height: 0px;}
-
+.p10{padding: 10px;}
 .plr10{padding-left: 10px;padding-right: 10px;}
 .mt10{margin-top: 10px;}
+.mt5{margin-top: 5px;}
+
+.br1{border: 1px solid #eee;}
+
+.bg-black{background: black;}
+.bg-white{background: white}
 
 .down-dorp{
     background-color: #FFFFFF;

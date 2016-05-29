@@ -5,7 +5,7 @@
     var Azimuth=function(ele,options){
         this.$element =ele;
         this.defaults ={
-            'speed':'500',//滑动速度
+            'speed':'1500',//滑动速度
             'height':$(window).height(),//默认高度
             'width':$(window).width(),//默认宽度
             'backgroundColor': 'white',

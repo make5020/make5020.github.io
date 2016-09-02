@@ -1,4 +1,8 @@
 @CHARSET "UTF-8";
 @media print {
-#ddd{background-color: red;}
+  selector{
+    page-break-before: always;
+   
+  }
+  td{border:0px;}
 }

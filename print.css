@@ -1,4 +1,4 @@
 @CHARSET "UTF-8";
-@media print selector {
+@media print {
 #ddd{background-color: red;}
 }
